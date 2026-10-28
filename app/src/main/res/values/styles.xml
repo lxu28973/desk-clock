@@ -1,7 +1,7 @@
 <resources>
     <style name="ClockDigits">
         <item name="android:textColor">@color/time</item>
-        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:fontFeatureSettings">tnum</item>
         <item name="android:gravity">center</item>
         <item name="android:includeFontPadding">false</item>
