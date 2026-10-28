@@ -1,0 +1,17 @@
+<resources>
+    <style name="ClockDigits">
+        <item name="android:textColor">@color/time</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ClockSecondary">
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:maxLines">1</item>
+    </style>
+</resources>

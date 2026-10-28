@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp">
+
+        <TextView
+            android:id="@+id/hours"
+            style="@style/ClockDigits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="200dp" />
+
+        <TextView
+            android:id="@+id/minutes"
+            style="@style/ClockDigits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-40dp"
+            android:textSize="200dp" />
+
+        <TextView
+            android:id="@+id/seconds"
+            style="@style/ClockSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/ClockSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/weekday"
+            style="@style/ClockSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="34dp" />
+    </LinearLayout>
+</FrameLayout>
