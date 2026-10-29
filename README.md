@@ -11,15 +11,19 @@
 
 ## 获取 APK
 
-每次 push 后 GitHub Actions 会自动编译：打开仓库的 **Actions** 页 → 最新一次 *Build APK* → 底部 **Artifacts** 下载 `desk-clock-apk`，解压得到 `app-debug.apk`。
+最新版直接下载（固定链接，永久有效）：
+
+https://github.com/lxu28973/desk-clock/releases/latest/download/desk-clock.apk
+
+每次往 `main` 分支 push，GitHub Actions 都会自动编译并发布一个新的 Release，上面的链接始终指向最新版。历史版本在仓库的 **Releases** 页。
 
 ## 安装到 Note 9
 
 1. 把 APK 传到手机（数据线、微信文件传输、网盘都行）
-2. 在「我的文件」里点开 APK，按提示允许「安装未知应用」
+2. 在「我的文件」里点开 desk-clock.apk，按提示允许「安装未知应用」
 3. 打开「桌面时钟」
 
-也可以用 adb：`adb install app-debug.apk`
+也可以用 adb：`adb install desk-clock.apk`
 
 ## 本地编译
 
